@@ -6,6 +6,7 @@ import Contact from './pages/contact'
 import Portfolio from './pages/portfolio'
 import Footer from './components/footer'
 import './App.css'
+import './styles/resetStyles.css'
 
 function App() {
   return (
