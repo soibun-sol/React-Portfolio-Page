@@ -4,11 +4,14 @@ import About from './pages/about';
 import Header from './components/header';
 import Footer from './components/footer';
 import Contact from './pages/contact';
+import './App.css';
+import '../src/styles/resetStyles.css';
 function App() {
   return (
+    <div className="content" style={{ minHeight: "100vh", width: "100vw" }}>
     <Router>
       < Header />
-      <main>
+      <main className= "style">
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
@@ -17,6 +20,7 @@ function App() {
       </main>
       < Footer />
     </Router>
+    </div>
   );
 }
 
