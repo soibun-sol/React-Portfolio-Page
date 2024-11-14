@@ -4,6 +4,7 @@ import About from './pages/about';
 import Header from './components/header';
 import Footer from './components/footer';
 import Contact from './pages/contact';
+import Portfolio from './pages/portfolio';
 import './App.css';
 import '../src/styles/resetStyles.css';
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
       </main>
       < Footer />
