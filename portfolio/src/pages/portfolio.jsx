@@ -11,14 +11,14 @@ function Portfolio() {
             title: "SQL Employee Tracker",
             description: "sql content management system that allows users to view and interact with information stored in a database via the command line.",
             image: project1Image,
-            link: "https://github.com/soibun-sol/psotgreSQL-Employee-Tracker",
+            github: "https://github.com/soibun-sol/psotgreSQL-Employee-Tracker",
             demo: "https://drive.google.com/file/d/1OQKY8MuDjJTFmVkrisVwvN3ogvwqmNUe/view?usp=sharing",
         },
         {
             title: "README Generator",
             description: "An application that dynamically generates a README.md file based on user input.",
             image: project2Image,
-            link: "https://github.com/soibun-sol/readeMe-Gen",
+            github: "https://github.com/soibun-sol/readeMe-Gen",
             demo:"https://drive.google.com/file/d/10R3yQ1PlNlXnVcy_tFYcmyeDTGt5XVCo/view?usp=sharing"
             
         },
@@ -26,13 +26,13 @@ function Portfolio() {
             title: "Weather Dashboard",
             description: "a weather dashboard that runs a geolaction api to display the current weather with a section to add and delete frequently visited pages for quicker access.",
             image: project4Image,
-            link: "https://soibun-sol.github.io/multi-search-dashboard/",
+            github: "https://soibun-sol.github.io/multi-search-dashboard/",
         },
         {
             title: "trailTrekker.io",
-            description: "a trail finding application that allows users to search for trails based on location and difficulty. the application also allows users to save trails to their profile for future reference. user interactivity is available through reviews", 
+            description: "a trail finding application that allows users to search for trails based on location and difficulty.",
             image: project3Image,
-            link: "https://github.com/abbylemieux/trailTrekker.io",
+            github: "https://github.com/abbylemieux/trailTrekker.io",
         }
 
     ];
