@@ -1,16 +1,17 @@
 .header {
     display: flex;
+    justify-content: space-between; 
     align-items: center; /* Centers items vertically in the header */
     background: linear-gradient(to right, var(--secondary-color), var(--primary-color));
-    padding: 1rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
   }
   
   .header-title {
     margin: 0;
-  }
-  
-  .navbar {
-    margin-left: auto; /* Pushes navbar to the right */
+    padding-left: 1rem;
   }
   
   .nav-menu {
@@ -18,10 +19,18 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    gap: 30px;
+    padding-right: 1rem;
   }
   
-  .nav-item {
-    margin-left: 30px; /* Spacing between nav items */
+  .nav-item a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+  }
+
+  .nav-item a:hover {
+    color: var(--hover-color);
   }
 
   
