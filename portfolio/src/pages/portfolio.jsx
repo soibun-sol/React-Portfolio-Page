@@ -23,7 +23,7 @@ function Portfolio() {
             
         },
         {
-            title: "Weather Dashboard",
+            title: "Multi-Search Dashboard",
             description: "a weather dashboard that runs a geolaction api to display the current weather with a section to add and delete frequently visited pages for quicker access.",
             image: project4Image,
             github: "https://soibun-sol.github.io/multi-search-dashboard/",
