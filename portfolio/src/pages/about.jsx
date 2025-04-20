@@ -26,6 +26,16 @@ function About() {
                 <li>Express.js</li>
                 <li>React</li>
                 <li>MongoDB</li>
+                <li>postgreSQL</li>
+                <li>sequalize</li>
+                <li>C#</li>
+                <li>RESTful APIs</li>
+                <li>GraphQL</li>
+                <li>CI/CD pipeline</li>
+                <li>Apollo Server</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                
             </ul>
         </section>
     );
