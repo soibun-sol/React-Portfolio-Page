@@ -1,5 +1,5 @@
 import React from 'react'
-import myImage from '../assets/image.png'
+import myImage from '../assets/Preview.png'
 import '../styles/about.css'
 
 function About() {
